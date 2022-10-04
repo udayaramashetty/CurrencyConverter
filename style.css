@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /*background: linear-gradient(315deg, #797b7e, #c9cfce);*/
+    background: url("https://wallpaperaccess.com/full/5227230.png");
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.big-container{
+    background: url("https://addons-media.operacdn.com/media/CACHE/images/themes/85/99885/1.0-rev1/images/09bedeac-60b5-4f7d-8f04-017ae677b7cb/40c9fe86c8a559c5c1597f1abc82997a.jpg");
+    padding: 10px 24px;
+    border-radius: 30px;
+    width: 500px;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    background-color: rgb(247, 241, 244);
+    padding: 10px 24px;
+    border-radius: 20px;
+    width: 490px;
+    height: 210px;
+    box-shadow: #797b7e;
+}
+
+/* 
+h1{
+    color: #364547;
+    margin-left: 72px;
+    margin-bottom: 0.5em;
+    font-family: sans-serif;
+}
+ */
+.container .box{
+    width: 100%;
+    display: flex;
+}
+.box div{
+    width: 100%;
+}
+select{
+    width: 70%;
+    height: 40px;
+    font-size: 1.4em;
+    cursor: pointer;
+    background: transparent;
+    outline: none;
+    color: rgb(18, 38, 218);
+    margin: 0.6em 1rem;
+    padding: 0 1em;
+    border-radius: 10px;
+    border: none;
+}
+input{
+    width: 95%;
+    height: 40px;
+    font-size: 1.5em;
+    margin: 0.5em 0;
+    border-radius: 10px;
+    border: 2rem;
+    background: #cccccc;
+    outline: none;
+    padding: o 1em;
+}
+.btnbox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn{
+    width: 50%;
+    height: 40px;
+    display: inline-block;
+    align-items: center;
+    background: rgb(15, 7, 61);
+    color: white;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 1.5em;
+    margin: 0.5em 0;
+}
+.clrbox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.clr{
+    width: 30%;
+    height: 25px;
+    display: inline-block;
+    align-items: center;
+    background: rgb(15, 7, 61);
+    color: white;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+    margin: 0.5em 0;
+}
