@@ -91,6 +91,8 @@ input{
     display: flex;
     align-items: center;
     justify-content: center;
+    padding:10px;
+    margin:10px;
 }
 .clr{
     width: 30%;
